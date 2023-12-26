@@ -81,7 +81,7 @@ namespace Rm_Assignment_2
 
                  string sentence = "The quick brown fox  jumps over the lazy dog";
 
-            string[] str1 = sentence.Split("  "); //based of white space chat str is splied into string array
+            string[] str1 = sentence.Split("  "); 
             foreach (string s in str1)
                 Console.WriteLine($"j) The sentence is splitted as: {s}");
 
